@@ -4,22 +4,48 @@
     <meta charset="utf-8">
     <title>My first website again</title>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src='scripts/main.js'></script>
   </head>
   <body>
     <h1>This is the big site</h1>
+    <nav>
 
-    <h2>What this will be someday</h2>
-    <p>One of the early works of one of the greatest web developers in the world</p>
-
-    <h2>Why this is</h2>
-    <p>Everyone has to start somewhere? What better place than here? What better time then now? Jan 2<sup>nd</sup>, 2018</p>
-
-    <h2>Where to find me</h2>
-    <p>
-      <a href="#">My github page</a>
-    </p>
-
+    </nav>
+    <div class="grid">
+      <div class="q-and-a">
+        <h2>What this will be someday</h2>
+        <p>One of the early works of one of the greatest web developers in the world! And most humble</p>
+        <h2>Why this is</h2>
+        <p>Everyone has to start somewhere? What better place than here? What better time then now? Jan 2<sup>nd</sup>, 2018</p>
+        <h2>Where to find me</h2>
+        <p>
+          <a href="https://github.com/LFilip">My github page</a>
+        </p>
+      </div>
+      <div class="forms">
+        <form action="#" method="POST" name="enter-name-form">
+          <div class="login-box">
+            <h3>Sign up for a free acount!<br /> Usable nowhere!</h3>
+            <h2 id="get-one-now">GET ONE NOW</h2><br />
+            <input type="text" name="username" placeholder="Enter username"><br />
+            <input type="password" name="password" placeholder="***********"><br />
+            <button>Submit</button>
+          </div>
+        </form>
+      </div>
+      <div>
+        <form action="#" method="POST" name="enter-name-form-2">
+          <input type="radio" name="desire" value="male">Interested in hiring Louis<br />
+          <input type="radio" name="desire" value="female">Super interested in hiring Louis!<br />
+          <input type="checkbox" name="qualities" value="C++">C++<br />
+          <input type="checkbox" name="qualities" value="Java">Java<br />
+          <input type="checkbox" name="qualities" value="HTML">HTML<br />
+          <input type="checkbox" name="qualities" value="CSS">CSS<br />
+          <input type="checkbox" name="qualities" value="Mobile">Mobile Development with LUA<br />
+          <input type="submit" value="continue">
+        </form>
+      </div>
+    </div>
   </body>
 </html>

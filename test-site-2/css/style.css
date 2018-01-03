@@ -1,0 +1,35 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: white;
+  text-align:center;
+}
+
+#get-one-now {
+  color: #938183;
+  text-decoration:underline;
+}
+
+.login-box {
+  margin: 10px auto;
+  padding-bottom:20px;
+  width:250px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.q-and-a {
+  text-align:left;
+  width:50%;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 6fr 1fr;
+  background-color: #fff;
+  color: #444;
+}
