@@ -1,0 +1,155 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.main-nav {
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  height:30px;
+  font-size:15px;
+}
+
+.left-nav {
+  margin-top:20px;
+  margin-left:20px;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  color: black;
+}
+
+
+
+.right-nav {
+  padding-top: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 10fr 1fr 40px 45px 50px;
+  text-align: right;
+}
+
+
+.logout-button {
+  background-color: #c72525;
+  width: 30px;
+  height: 30px;
+  border-radius:20px;
+  color: white;
+  font-size:20px;
+  border: none;
+}
+
+.notification-icon {
+  margin-top:12px;
+  width: 25px;
+  height: 25px;
+}
+
+.app-icon {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+}
+
+.nav-option {
+  text-decoration: none;
+  margin:10px;
+  color: black;
+  margin-top:30px;
+}
+
+.nav-option:hover {
+  text-decoration:underline;
+}
+
+.google-title {
+  width:100%;
+  margin: 150px 40% 0 40%;
+}
+.google-logo {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.resized-box {
+  width:90%;
+  height:50px;
+  margin: 0;
+  border: none;
+}
+
+.search-bar {
+  margin: 10px auto;
+  width:55%;
+  height:50px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.mic-icon {
+  width:22px;
+  height:22px;
+}
+
+.main-buttons {
+  margin: 0 auto;
+  margin-top:30;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  border: none;
+}
+
+.google-button {
+  font-weight:bold;
+  margin-left:70%;
+  width:130px;
+  height:40px;
+  background-color: rgb(242, 242, 242);
+  border: none;
+  color: rgb(117, 117, 117);
+  border-radius:2px;
+}
+
+.lucky-button {
+  font-weight:bold;
+  margin-left: -20px;
+  width: 130px;
+  height: 40px;
+  background-color: rgb(242, 242, 242);
+  border: none;
+  color: rgb(117, 117, 117);
+  border-radius:2px;
+}
+
+.bottom-nav-bar {
+  margin-top:45px;
+  background-color:   rgb(242, 242, 242);
+  height:50px;
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.nav-option-bottom {
+  text-decoration:none;
+  font-weight:light;
+  margin-top:10%;
+  color: rgb(117, 117, 117);
+  font-size:14px;
+}
+
+.nav-option-bottom:hover {
+  text-decoration:underline;
+}
+.left-nav-bottom {
+  margin-top:20px;
+  margin-left:20px;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  color: rgb(117, 117, 117);
+}
+
+.right-nav-bottom {
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr 1fr;
+  color: rgb(117, 117, 117);
+
+}
