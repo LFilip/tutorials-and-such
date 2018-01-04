@@ -3,6 +3,13 @@
   padding:0;
 }
 
+
+/*  Header section */
+.header {
+  width:100%;
+  height:55px;
+}
+
 .main-nav {
   display:grid;
   grid-template-columns: 1fr 3fr;
@@ -18,7 +25,34 @@
   color: black;
 }
 
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
+.header li a {
+    display: block;
+    width: 60px;
+    height:100px;
+  padding: 18px 16px;
+  text-decoration: none;
+  color:black;
+  text-align:center
+}
+
+.nav-left li {
+  float:left;
+}
+.nav-right li {
+    float: right;
+}
+
+.header a {
+    display: block;
+    padding: 8px;
+}
 
 .right-nav {
   padding-top: 10px;
@@ -27,7 +61,6 @@
   grid-template-columns: 10fr 1fr 40px 45px 50px;
   text-align: right;
 }
-
 
 .logout-button {
   background-color: #c72525;
@@ -62,13 +95,14 @@
   text-decoration:underline;
 }
 
+/* Main body of the thing*/
+
 .google-title {
-  width:100%;
-  margin: 150px 40% 0 40%;
+  margin: 131px 0px 0px 0px;
 }
 .google-logo {
-  width: 25%;
-  margin: 0 auto;
+  width: 21%;
+  margin: 0px 0px 0px 38%;
 }
 
 .resized-box {
@@ -80,7 +114,7 @@
 
 .search-bar {
   margin: 10px auto;
-  width:55%;
+  width:526px;
   height:50px;
   box-shadow: 1px 1px 1px 1px grey;
 }
@@ -121,6 +155,10 @@
 }
 
 .bottom-nav-bar {
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
   margin-top:45px;
   background-color:   rgb(242, 242, 242);
   height:50px;
