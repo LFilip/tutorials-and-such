@@ -4,51 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link type="text/css" rel="stylesheet" href="style.css">
+
   <title>Document</title>
 </head>
 <body>
+  <div class='weather-thing'>
   <label for="weather">Select the weather type today: </label>
-<select id="weather">
-  <option value="">--Make a choice--</option>
-  <option value="sunny">Sunny</option>
-  <option value="rainy">Rainy</option>
-  <option value="snowing">Snowing</option>
-  <option value="overcast">Overcast</option>
-</select>
+    <select id="weather">
+    <option value="">--Make a choice--</option>
+    <option value="sunny">Sunny</option>
+    <option value="rainy">Rainy</option>
+    <option value="snowing">Snowing</option>
+    <option value="overcast">Overcast</option>
+    </select>
 
-<p></p>
-<h1>Fresh Hell@</h1>
-<script>
-var select = document.querySelector('select');
-var para = document.querySelector('p');
-var head = document.querySelector('h1');
+  <p></p>
+  <h1></h1>
+</div>
+<hr />
 
-select.addEventListener('change', setWeather);
-
-head.textContent= 'Well dont stand around all day! Pick one!';
-
-function setWeather() {
-  var choice = select.value;
-
-  if (choice === 'sunny') {
-    head.textContent = 'Well Thats Fucking Great! eh?';
-    para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
-  } else if (choice === 'rainy') {
-    head.textContent = 'Well Thats just Fucking Great! eh?';
-    para.textContent = 'Rain is falling outside; take a rain coat and a brolly, and don\'t stay out for too long.';
-  } else if (choice === 'snowing') {
-    head.textContent = 'Oh, Thats Fucking Great! eh?';
-    para.textContent = 'The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.';
-  } else if (choice === 'overcast') {
-    head.textContent = 'Shite, thats Fucking Great! eh?';
-    para.textContent = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';
-  } else {
-    head.textContent = 'Well Pick something why don\'t ya?';
-    para.textContent = '';
-  }
-}
-
-
-</script>
+  <div class="main-wrapper">
+    <p>Now Lets try something else</p>
+    <input type="text" placeholder="Put a number here">
+    <ul>
+      <li><button>+7</button></li>
+      <li><button></button></li>
+      <li><button></button></li>
+      <li><button></button></li>
+      <li><button></button></li>
+    </ul>
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
