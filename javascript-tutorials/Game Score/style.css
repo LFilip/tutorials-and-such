@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+}
+
+.header {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.players {
+  min-height: 50px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: grey;
+  padding: 5px;
+}
+
+.player {
+  background-color:silver;
+  width: 90%;
+  border: solid 1px black;
+  margin: 20px auto;
+  height: 65px;
+  display: block;
+}
+
+.player .name {
+  display: block;
+  height: 50px;
+  width: 30%;
+  font-size: 40px;
+  float: left;
+  border-radius: 5px;
+  background-color: silver;
+  text-align: center;
+}
+
+.score {
+  display: block;
+  height: 50px;
+  width: 60%;
+  float: right;
+  font-size:40px;
+}
